@@ -33,7 +33,7 @@ The *.csv* converted version of *all_pairs_ML*. Contains all the annotated neigh
 
 ## Scripts of the 70:30 train:test split
 
-These scripts prepare the positive and negative control sets, then split them in a 70:30 ratio to train then test database- and network-specific Random Forest and XGBoost models. The outputs are ROC curves, PR curves and metric heatmaps.
+These scripts prepare the positive and negative control sets, then split them in a 70:30 ratio to train then test database- and network-specific Random Forest and XGBoost models. These files also have the option to use randomly selected negative control pairs. The outputs are ROC curves, PR curves and metric heatmaps.
 There is a separate script for each IDP database and for a combined prediction:
 - predictive_biomarker_ML_70_30.ipynb
 - predictive_biomarker_ML_70_30_DisProt.ipynb
